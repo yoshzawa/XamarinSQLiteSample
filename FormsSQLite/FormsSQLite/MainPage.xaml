@@ -2,13 +2,16 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:FormsSQLite"
-             x:Class="FormsSQLite.MainPage">
+             x:Class="FormsSQLite.MainPage" Title="MainPage">
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+            <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Button Text="add test1" x:Name="btn1"/>
+        <Button Text="add test2" x:Name="btn2"/>
+        <Button Text="list View" x:Name="btnView"/>
     </StackLayout>
 
 </ContentPage>
