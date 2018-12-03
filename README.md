@@ -17,5 +17,7 @@ SQLのように Create Table するのではなく、データを保存するた
 
 ## 参考にしたサイト
 https://docs.microsoft.com/ja-jp/xamarin/xamarin-forms/app-fundamentals/databases
+
 https://developer.xamarin.com/samples/xamarin-forms/Todo/
+
 https://github.com/xamarin/xamarin-forms-samples/tree/master/Todo
