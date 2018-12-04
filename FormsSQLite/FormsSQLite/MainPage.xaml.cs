@@ -49,7 +49,8 @@ namespace FormsSQLite
 
         private void BtnVWclicked(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+                        Navigation.PushModalAsync(new NavigationPage(new ResultPage()));
+
         }
     }
 }
